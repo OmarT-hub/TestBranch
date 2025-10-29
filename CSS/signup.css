@@ -326,3 +326,12 @@
 
 
  }
+
+.c a{
+    text-decoration: none !important;
+}
+
+
+::selection{
+    background-color: gold;
+}
