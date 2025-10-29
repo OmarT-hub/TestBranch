@@ -167,12 +167,39 @@
      margin-left: 5px;
 
  }
- span a{
-    all:unset;
-    text-decoration: underline;
+
+ span a {
+     all: unset;
+     text-decoration: underline;
  }
- a{
-    cursor: pointer;
+
+ button,
+ span,
+ a {
+     cursor: pointer;
+
+ }
+
+ button {
+     transition: transform 0.3s, box-shadow 0.3s;
+ }
+
+ button:hover {
+     transform: scale(1.1);
+     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+
+ }
+
+ input[type="submit"] {
+     transition: background-color 0.3s,box-shadow 0.3s;
+
+ }
+
+ input[type="submit"]:hover {
+    color: black;
+     background-color: rgb(1, 214, 164);
+     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+
  }
 
  .sign-with-cont {
@@ -238,51 +265,64 @@
      }
 
      h2 {
-        font-size: 40px;
+         font-size: 40px;
      }
-     .small-cont label{
-        font-size: 20px;
-        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif ;
-    margin-bottom: 5px;
-    
-    }
-    input[type="text"],input[type="password"]{
-        padding: 10px;
-    }
-    input[type="checkbox"]{
-        width: 20px;
-    }
-    input[type="checkbox"]+label{
-        font-size: 15px;
-    }
-    input[type="submit"]{
-        padding: 15px;
-        font-size: 17px;
-        font-family: monospace;
-    }
-    .or{
-        height: 2px;
-    }
-    .or:after{
-       font-size: 15px;
-       padding: 5px;
-       letter-spacing: 2px;
-    }
-    button{
-        padding: 30px;
-    }
-    img{
-        width: 20px ;
-        margin-right: 10px;
-    }
-    img +p,.c{
-        font-size: 15px;
-      
-    }
-    .sign-with-cont{
-        column-gap: 20px;
-        row-gap: 10px;
-    }
+
+     .small-cont label {
+         font-size: 20px;
+         font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+         margin-bottom: 5px;
+
+     }
+
+     input[type="text"],
+     input[type="password"] {
+         padding: 10px;
+     }
+
+     input[type="checkbox"] {
+         width: 20px;
+     }
+
+     input[type="checkbox"]+label {
+         font-size: 15px;
+     }
+
+     input[type="submit"] {
+         padding: 15px;
+         font-size: 17px;
+         font-family: monospace;
+     }
+
+     .or {
+         height: 2px;
+     }
+
+     .or:after {
+         font-size: 15px;
+         padding: 5px;
+         letter-spacing: 2px;
+     }
+
+     button {
+         padding: 30px;
+     }
+
+     img {
+         width: 20px;
+         margin-right: 10px;
+     }
+
+     img+p,
+     .c {
+         font-size: 15px;
+
+     }
+
+     .sign-with-cont {
+         column-gap: 20px;
+         row-gap: 10px;
+     }
 
 
  }
