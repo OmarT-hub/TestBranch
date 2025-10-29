@@ -6,27 +6,64 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="CSS/login.css">
     <link rel="icon" href="/imgs/icons/login.svg">
-    <title>MTX – log in or sign up</title>
+    <title>Sign up</title>
 </head>
 
 <body>
-    <h1 class="MTX">MTX Group</h1>
-    <a href="main copy.html" class="main" title="Go To Main Page">Main</a>
+    <div class="all">
+    </div>
+    <div class="container">
+        <div class="left">
+            <div class="containerL">
+                <h2>Get Started Now</h2>
+                <form action="">
+                    <div class="name-cont small-cont ">
+                        <label for="name" class="label-total">Name</label>
+                        <input type="text" placeholder="Enter your name" id="name">
+                    </div>
 
-    <form action="" method="post">
-        <!-- <label for="username">Username</label> -->
-        <input type="text" name="username" id="username" placeholder="username" class="username" autofocus required>
-        
-        <!-- <label for="password">Password</label> -->
-        <input type="password" name="password" id="password" placeholder="password" class="password" required>
+                    <div class="email-cont small-cont">
+                        <label for="email" class="label-total">Email address</label>
+                        <input type="text" placeholder="Enter your email" id="email">
+                    </div>
 
-        <input type="submit" class="submit">
-        <input type="reset" class="reset">
-        <hr>
-        <a href="signup.html" target="_self">
-            <button type="button">Create New Account</button>
-        </a>
-    </form>
+
+                    <div class="password-cont small-cont">
+                        <label for="password" class="label-total">Password</label>
+                        <input type="password" placeholder="Enter your password" id="password">
+                    </div>
+
+                    <div class="checkbox-cont ">
+                        <input type="checkbox" name="" id="checkbox">
+                        <label for="checkbox">I agree to the<span> terms & policy</span></label>
+                    </div>
+
+                    <input type="submit" value="Sign up">
+                </form>
+
+                <div class="or"></div>
+
+                <div class="sign-with-cont">
+                    <button>
+                        <img src="/imgs/icons/google.png" alt="">
+                        <p> Sign in with Google</p>
+                    </button>
+
+                    <button>
+                        <img src="/imgs/icons/apple.png" alt="">
+                        <p>Sign in with Apple</p>
+                    </button>
+
+                    <div class="c">
+                        <p>Have an account? </p><a href="#">Sign In</a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="right"></div>
+    </div>
 
 
 </body>
