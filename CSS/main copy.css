@@ -1,0 +1,241 @@
+/*  {
+    box-sizing: border-box;
+} */
+
+body {
+    background: linear-gradient(135deg, #243949, #517fa4);
+    min-height: 100vh;
+    color: white;
+    margin: 0;
+    overflow-x: hidden;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.defination {
+    margin: 30px;
+    padding: 10px;
+    border: 2px solid goldenrod;
+    width: 320px;
+}
+
+.defination h1 .myname {
+    font-size: larger;
+    color: lightseagreen;
+    border-bottom: 2px solid #b4aa1b;
+}
+.defination h1 .myname:hover {
+    font-size: larger;
+    color: rgb(178, 32, 32);
+    border-bottom: 2px solid #b4aa1b;
+}
+
+.defination h2 {
+    color: rgba(127, 255, 212, 0.466);
+    border-bottom: 2px solid #b4aa1b;
+    text-align: center;
+
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.defination h2:hover{
+    color:rgb(127, 255, 212)
+
+}
+
+.defination .a {
+    text-align: center;
+}
+
+.defination a {
+
+    text-decoration: none;
+    color: rgb(43, 255, 0);
+    padding: 8px;
+    background-color: rgb(42, 98, 221);
+    border-radius: 10px;
+}
+
+.defination a:hover{
+    background-color: black;
+    color: yellow;
+}
+
+
+
+
+
+
+ul {
+    /* background-color: rgba(241, 245, 11, 0.795); */
+    background-color: #1a1a1a62;
+    /* padding: 20px; */
+    padding: 1.8% 2%;
+
+    white-space: nowrap;
+}
+
+li {
+    display: inline-block;
+    /* margin-left: 5%; */
+    /* margin-left: 3vw; */
+    margin-left: 1%;
+    width: calc((100%-14%)/12);
+}
+
+.text-decor {
+    text-decoration: none;
+    text-transform: capitalize;
+    color: white;
+    border-radius: 8px;
+    /* ============================================ */
+    background-color: rgb(0, 0, 0);
+    padding: 1.5vh 1vw;
+    border: 2px solid rgb(255, 255, 255);
+}
+
+.facebook {
+    /* margin-left: 10%; */
+    /* margin-left: 1vw; */
+    border: 2px solid rgb(64, 147, 224);
+    padding: 1.5vh 1vw;
+    background-color: rgb(64, 147, 224);
+}
+
+
+.youtube {
+    background-color: red;
+    /* padding: 10px; */
+    padding: 1.5vh 1vw;
+    border: 2px solid red;
+}
+
+.elzero {
+    background-color: #3C4A93;
+    padding: 1.5vh 1vw;
+    border: 2px solid #3C4A93;
+}
+
+
+
+
+
+
+
+
+
+
+.test-page {
+    background-color: gold;
+    color: black;
+    padding: 1.5vh 1vw;
+    margin-left: 16vw;
+}
+
+
+
+
+
+
+.log12 {
+
+    background-color: rgb(150, 99, 34);
+    padding: 2vh 1.3vw;
+    padding: 1.5vh 1vw;
+
+    border-radius: 8px;
+    /* margin-left: 3.5vw; */
+}
+
+.sign12 {
+
+    background-color: rgb(34, 150, 125);
+    padding: 2vh 1.3vw;
+    padding: 1.5vh 1vw;
+
+    border-radius: 8px;
+    /* margin-left: -2vw; */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.test {
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    background-color: #f0f0f0b9;
+    color: rgb(235, 11, 11);
+    text-align: center;
+
+    border: 4px solid burlywood;
+    outline-offset: 10px;
+    outline: 4px solid green;
+
+
+
+}
+
+
+.hov:hover {
+    background-color: rgb(7, 5, 5);
+    color: red;
+}
+
+
+
+.footer {
+    padding: 10px 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    position: absolute;
+    bottom: -16px;
+    width: 100%;
+    height: 25%;
+    background-color: rgba(0, 0, 0, 0.329);
+    text-align: center;
+}
+
+.footer .contact-us {
+    background-color: #b4aa1b;
+    padding: 20px;
+}
+
+.footer .copyright {
+    padding: 20px;
+    background-color: #b4aa1b69;
+}
+
+.footer .contact-us a {
+    padding: 6px 8px;
+    text-transform: capitalize;
+    text-decoration: none;
+    background-color: #243949;
+    color: crimson;
+    border-radius: 10px;
+    margin-left: 5px;
+}
+
+.footer .contact-us a:hover {
+    color: green;
+    background-color: #92b3ce;
+}
+
+.mao {
+    position: relative;
+    bottom: -4px;
+    width: 20px;
+}

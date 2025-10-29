@@ -1,0 +1,97 @@
+body {
+    /* background-color: rgba(255, 217, 0, 0.678); */
+    background-image: url(/img/background/signup.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+
+form {
+    color: rgb(121, 219, 9);
+    /* background-color: gold; */
+    padding: 10px;
+    width: 324px;
+    border: 2px solid #eee;
+    border-radius: 20px;
+    box-sizing: border-box;
+    margin-top: -20px;
+    
+}
+
+
+
+
+.h1234 {
+    color: #1877f2;
+    background-color: #eee;
+    /* margin: 30px 70px 0px 80px; */
+    margin: 10px 81px;
+}
+
+
+.signbutton {
+    background-color: green;
+    color: #eee;
+    padding: 5px;
+
+    margin-bottom: 5px;
+    margin-left: 120px;
+    border-radius: 8px;
+}
+
+.male-radio{
+    display: inline-block ;
+    margin-left: 10px;
+}
+.female-radio{
+    display: inline-block;
+}
+
+.k{
+    background-color: gray;
+}
+
+
+
+.MTX{
+
+    text-align: center;
+    width: fit-content;
+    margin: 0 auto;
+    border-bottom: 2px solid black;
+    color: rgba(33, 235, 50, 0.685);
+    background-color: gray;
+    text-shadow: 0px 2px 14px green;
+
+}
+
+.main{
+    color: white;
+    background-color: rgb(176, 0, 199);
+    padding: 20px;
+    border: 2px solid ;
+    border-radius: 8px;
+    text-decoration: none;
+    text-align: center;
+    display: block;
+    width: fit-content;
+    width:4%;
+    margin: -30px auto 0px auto;
+    float: right;
+}
+
+
+
+.first-and-last{
+    width: 90px;
+    margin: 5px 0 0 0;
+}
+
+
+.lname1{
+margin-left: 30px;
+}
+
+.MF{
+    color: black;
+}
