@@ -4,77 +4,69 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sign up for MTX</title>
     <link rel="stylesheet" href="CSS/login.css">
     <link rel="icon" href="imgs/icons/login.svg">
+    <title>login</title>
 </head>
 
 <body>
-    <h1 class="MTX">MTX Group</h1>
-    <a href="index.html" class="main" title="Go To Main Page">Main</a>
+    <div class="all">
+    </div>
+    <div class="container">
+        
+        <div class="right"></div>
+        <div class="left">
+            <div class="containerL">
+                <h2>Welcome back!</h2>
+                <p>Enter your Credentials to access your account</p>
+                <form action="">
+                    <!-- <div class="name-cont small-cont ">
+                        <label for="name" class="label-total">Name</label>
+                        <input type="text" placeholder="Enter your name" id="name">
+                    </div> -->
 
-    <form action="" method="post">
-        <!-- <div>
-            <label for="Fullname" class="k">Fullname</label>
-            <input type="text" id="Fullname" name="Full_name" required placeholder="name"> 
-        </div> -->
-        <div>
-            <label for="fname" class="k">First</label>
-            <input type="text" class="first-and-last" name="F_name" id="fname" placeholder="first name">
-            <label for="lname" class="k lname1">Last</label>
-            <input type="text" class="first-and-last" name="L_name" id="lname" placeholder="last name">
+                    <div class="email-cont small-cont">
+                        <label for="email" class="label-total">Email address</label>
+                        <input type="text" placeholder="Enter your email" id="email">
+                    </div>
 
-        </div>
-        <br>
-        <div>
-            <label for="username" class="k">username</label>
-            <input type="text" name="username" id="username" required placeholder="username">
-        </div>
-        <br>
-        <div>
-            <label for="email" class="k">Email</label>
-            <input type="email" name="email" id=email required placeholder="Email">
-        </div>
-        <br>
-        <div>
-            <label for="password" class="k">password</label>
-            <input type="password" name="password" id=password required placeholder="Write Stong password">
-        </div>
-        <br>
-        <div>
-            <label for="confirm_password" class="k">Confirm password</label>
-            <input type="password" name="password" id="confirm_password" placeholder="confirm_password">
-        </div>
-        <br>
-        <div>
-            <label for="phone" class="k">Phone Number</label>
-            <input type="tel" name="Phone" id="Phone Number" placeholder="+201009124381" title="+201009124381"
-                minlength="11" required>
-        </div>
-        <br>
-        <div>
-            <label for="date" class="k">Date</label>
-            <input type="date" value="2005-10-25">
-        </div>
-        <br>
-        <div>
-            <label class="k"> Gender :</label>
-            <div class="male-radio">
-                <input type="radio" name="Gender" id="Male" value="Male" checked>
-                <label for="Male" class="MF">Male</label>
-            </div>
-            <div class="female-radio">
-                <input type="radio" name="Gender" value="Female" id="Female">
-                <label for="Female" tabindex="0" class="MF">Female</label>
+
+                    <div class="password-cont small-cont">
+                        <label for="password" class="label-total">Password</label>
+                        <input type="password" placeholder="Enter your password" id="password">
+                        <a href="#">forget password</a>
+                    </div>
+
+                    <div class="checkbox-cont ">
+                        <input type="checkbox" name="" id="checkbox">
+                        <label for="checkbox">Remember for 30 days</label>
+                    </div>
+
+                    <input type="submit" value="login">
+                </form>
+
+                <div class="or"></div>
+
+                <div class="sign-with-cont">
+                    <button>
+                        <img src="imgs/icons/google.png" alt="" loading="eager" decoding="async">
+                        <p> Sign in with Google</p>
+                    </button>
+
+                    <button>
+                        <img src="imgs/icons/apple.png" alt="" loading="eager" decoding="async">
+                        <p>Sign in with Apple</p>
+                    </button>
+
+                    <div class="c">
+                        <p>Don't Have an account? </p><a href="signup.html">Sign Up</a>
+                    </div>
+                </div>
+
             </div>
         </div>
-        <br>
-        <div>
-            <input type="submit" value="Sign Up" class="signbutton">
-        </div>
-        <hr>
-        <a href="login.html" target="_self" class="h1234">You Have an account</a>
-    </form>
+    </div>
+
 
 </body>
 
