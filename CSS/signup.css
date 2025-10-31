@@ -353,9 +353,10 @@
          display: flex;
          justify-content: center;
          align-items: center;
-
          color: rgba(0, 0, 0, 0.659);
-     }
+            width: 240px;
+            overflow-x: hidden;
+        }
 
      .container {
          width: 85%;
@@ -365,6 +366,10 @@
          display: flex;
          justify-content: center;
          align-items: center;
+
+
+         position: absolute;
+         left: 20px;
      }
 
      .right {
