@@ -231,7 +231,7 @@
      background-color: white;
      border: 1px solid gray;
      border-radius: 8px;
-       font-size: clamp(9.8px, 1vw, 22px);
+     font-size: clamp(9.8px, 1vw, 22px);
 
 
 
@@ -348,7 +348,7 @@
      background-color: gold;
  }
 
- @media (max-width: 769px) {
+ @media (max-width: 768px) {
      body {
          display: flex;
          justify-content: center;
@@ -358,8 +358,8 @@
      }
 
      .container {
-         width: 85vmin;
-         height: 80%;
+         width: 85%;
+         height: 550px;
          border-radius: 20px;
 
          display: flex;
@@ -399,5 +399,47 @@
          color: black;
      }
 
+     .or {
+         margin: -10px auto;
+     }
 
+ }
+
+ @media (min-width:769px)and (max-width:900px) {
+     .container {
+         width: 95%;
+         height: 90%;
+     }
+
+     .sign-with-cont {
+         margin-top: -10px;
+     }
+
+     .sign-with-cont button {
+         position: relative;
+         padding: 15px;
+     }
+
+     .sign-with-cont button p {
+         position: absolute;
+         left: 20px;
+     }
+
+     .sign-with-cont img {
+         width: 13px;
+         margin: unset;
+         position: absolute;
+         left: 2px;
+     }
+
+ }
+ @media (max-width:1024px) {
+    .container{
+        width: 90%;
+        height: 90%;
+    
+    }
+ }
+ @media () {
+    
  }
